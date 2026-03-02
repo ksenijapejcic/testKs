@@ -1,0 +1,13 @@
+# simple_test.py
+
+def greet(name):
+    return f"Hello, {name}! This is a test commit."
+
+def main():
+    print("Running simple Python test...")
+    message = greet("GitHub")
+    print(message)
+    print("Script executed successfully.")
+
+if __name__ == "__main__":
+    main()
